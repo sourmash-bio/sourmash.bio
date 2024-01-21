@@ -2,10 +2,6 @@
   auto_https off
 }
 
-http://bw.sourmash.bio {
-  redir https://branchwater.jgi.doe.gov{uri} permanent
-}
-
 http://branchwater.sourmash.bio {
   redir https://branchwater.jgi.doe.gov{uri} permanent
 }
