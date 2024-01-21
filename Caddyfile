@@ -1,0 +1,15 @@
+http://bw.sourmash.bio/ {
+  redir https://branchwater.jgi.doe.gov/{uri} permanent
+}
+
+http://api.branchwater.sourmash.bio/ {
+  redir https://branchwater-api.jgi.doe.gov/{uri} permanent
+}
+
+http://sourmash.bio/ {
+  redir https://sourmash.readthedocs.org/{uri} permanent
+}
+
+http://sourmash-bio.fly.dev {
+  redir https://sourmash.bio/{uri} permanent
+}
