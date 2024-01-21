@@ -1,2 +1,2 @@
-FROM caddy:2.1.1
+FROM caddy:2.7.6
 COPY ./Caddyfile /etc/caddy/Caddyfile
