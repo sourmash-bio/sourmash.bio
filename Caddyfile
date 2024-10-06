@@ -18,6 +18,10 @@ http://mastiff.sourmash.bio {
   redir https://branchwater-api.jgi.doe.gov{uri} 308
 }
 
+http://branchwater-api.sourmash.bio {
+  redir https://branchwater-api.jgi.doe.gov{uri} 308
+}
+
 http://sourmash.bio {
   redir https://sourmash.readthedocs.org{uri} permanent
 }
